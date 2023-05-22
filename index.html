@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Badmiton Excel</title>
+</head>
+<body>
+    <header>
+    <nav class="flex justify-between px-5 text-white py-5 md:px-10">
+      <h1 class="font-semibold md:text-xl" id="slidein"><a href="#">Badminton Excel</a></h1>
+      <div class="flex font-thin">
+        <span class="mr-10 " id="slidein"><a href="#" class="hidden md:block">Membership</a></span>
+        <span class="mr-10" id="slide"><a href="#" class="hidden md:block">Contact Us</a></span>
+      </div>
+      <div id="myNav" class="overlay">
+        
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">Our Team</a>
+          <a href="#">Membership</a>
+          <a href="#">Contact Us</a>
+        </div>
+      
+      </div>
+      
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <img src="./images/Frame.svg" onclick="openNav()" id="slide"></image>
+    </nav>
+    <!-- content -->
+    <article class="px-10 md:px-20 mt-20 md:mt-44 pb-20 md:pb-64 text-white md:w-3/5" id="slidein">
+      <h1 class="mb-4 font-semibold text-3xl md:text-5xl" >BadmintonExcel</h1>
+      <p class="font-thin">We are a mixed bunch of friendly, social badminton fans based in the borough of Barnet, North London. Everyone is welcome  to our club regardless of capacity or abilities.</p>
+    </article>
+    </header>
+
+    <!-- welcome -->
+    <section class="bg-[#474F79]">
+      <article class="py-20 pl-10 md:pl-40 text-white md:w-3/5" id="slidein">
+        <h1 class="mb-4 font-medium text-3xl md:text-4xl">Welcome</h1>
+        <p class="font-thin">We are a diverse group of friendly badminton fans based in the borough of Barnet North London. Everyone is welcome regardless of abilities. We have novice, intermediate and advanced players and provide coaching and guidance.</p>
+      </article>
+    </section>
+
+    <!-- content -->
+    <section class="md:flex items-center justify-between md:mt-16 mb-20">
+      <div class="md:w-3/5">
+        <video src="./images/pexels-林林-5991158-1920x1080-50fps.mp4" autoplay loop muted></video>
+      </div>
+      <div class="ml-10 pr-5 mt-4 md:mt-0 md:w-3/5">
+        <p>At Badminton Excel, we develop your hidden skills, stamina and fitness. We have been successful in using badminton as one of the tools for a healthy weight loss programme in line with our lifestyle coach. You can play as intensely as you wish or as moderately as you desire. Periodic fitness assessments are conducted to help manage fitness levels.</p>
+        <button class="bg-[#474F79] text-white font-thin py-2 px-4 rounded-xl mt-4"><a href="#">Learn more</a></button>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
